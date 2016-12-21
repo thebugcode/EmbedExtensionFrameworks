@@ -2110,7 +2110,6 @@
 						};
 					};
 					16CBDAA618F6EE3A00233D3C = {
-						DevelopmentTeam = ED83ZJR6DX;
 						LastSwiftMigration = 0820;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -2974,7 +2973,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Lister/Lister.entitlements;
-				DEVELOPMENT_TEAM = ED83ZJR6DX;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Lister/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "${LISTER_BUNDLE_PREFIX}.${PRODUCT_NAME:rfc1034identifier}";
@@ -2991,7 +2990,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Lister/Lister.entitlements;
-				DEVELOPMENT_TEAM = ED83ZJR6DX;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Lister/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "${LISTER_BUNDLE_PREFIX}.${PRODUCT_NAME:rfc1034identifier}";
