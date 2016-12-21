@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D9548871E0B2FC900ED435C /* Lister(watchOS).h in Headers */ = {isa = PBXBuildFile; fileRef = 0D9548851E0B2FC900ED435C /* Lister(watchOS).h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DD916851E0B2F3300070021 /* InternalDependency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD9167B1E0B2F3300070021 /* InternalDependency.framework */; };
+		0DD9168A1E0B2F3300070021 /* InternalDependencyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD916891E0B2F3300070021 /* InternalDependencyTests.swift */; };
+		0DD9168C1E0B2F3300070021 /* InternalDependency.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DD9167E1E0B2F3300070021 /* InternalDependency.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DD916861E0B2F3300070021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DD916721E0B2F3200070021 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DD9167A1E0B2F3300070021;
+			remoteInfo = InternalDependency;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D9548781E0B2FB500ED435C /* Lister.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lister.h; sourceTree = "<group>"; };
+		0D9548791E0B2FB500ED435C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D9548831E0B2FC900ED435C /* Lister(watchOS).framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Lister(watchOS).framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D9548851E0B2FC900ED435C /* Lister(watchOS).h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lister(watchOS).h"; sourceTree = "<group>"; };
+		0D9548861E0B2FC900ED435C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DD9167B1E0B2F3300070021 /* InternalDependency.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InternalDependency.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DD9167E1E0B2F3300070021 /* InternalDependency.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InternalDependency.h; sourceTree = "<group>"; };
+		0DD9167F1E0B2F3300070021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DD916841E0B2F3300070021 /* InternalDependencyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InternalDependencyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DD916891E0B2F3300070021 /* InternalDependencyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternalDependencyTests.swift; sourceTree = "<group>"; };
+		0DD9168B1E0B2F3300070021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D95487F1E0B2FC900ED435C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD916771E0B2F3300070021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD916811E0B2F3300070021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD916851E0B2F3300070021 /* InternalDependency.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D9548771E0B2FB500ED435C /* Lister */ = {
+			isa = PBXGroup;
+			children = (
+				0D9548781E0B2FB500ED435C /* Lister.h */,
+				0D9548791E0B2FB500ED435C /* Info.plist */,
+			);
+			path = Lister;
+			sourceTree = "<group>";
+		};
+		0D9548841E0B2FC900ED435C /* Lister(watchOS) */ = {
+			isa = PBXGroup;
+			children = (
+				0D9548851E0B2FC900ED435C /* Lister(watchOS).h */,
+				0D9548861E0B2FC900ED435C /* Info.plist */,
+			);
+			path = "Lister(watchOS)";
+			sourceTree = "<group>";
+		};
+		0DD916711E0B2F3200070021 = {
+			isa = PBXGroup;
+			children = (
+				0DD9167D1E0B2F3300070021 /* InternalDependency */,
+				0DD916881E0B2F3300070021 /* InternalDependencyTests */,
+				0D9548771E0B2FB500ED435C /* Lister */,
+				0D9548841E0B2FC900ED435C /* Lister(watchOS) */,
+				0DD9167C1E0B2F3300070021 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DD9167C1E0B2F3300070021 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DD9167B1E0B2F3300070021 /* InternalDependency.framework */,
+				0DD916841E0B2F3300070021 /* InternalDependencyTests.xctest */,
+				0D9548831E0B2FC900ED435C /* Lister(watchOS).framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DD9167D1E0B2F3300070021 /* InternalDependency */ = {
+			isa = PBXGroup;
+			children = (
+				0DD9167E1E0B2F3300070021 /* InternalDependency.h */,
+				0DD9167F1E0B2F3300070021 /* Info.plist */,
+			);
+			path = InternalDependency;
+			sourceTree = "<group>";
+		};
+		0DD916881E0B2F3300070021 /* InternalDependencyTests */ = {
+			isa = PBXGroup;
+			children = (
+				0DD916891E0B2F3300070021 /* InternalDependencyTests.swift */,
+				0DD9168B1E0B2F3300070021 /* Info.plist */,
+			);
+			path = InternalDependencyTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D9548801E0B2FC900ED435C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D9548871E0B2FC900ED435C /* Lister(watchOS).h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD916781E0B2F3300070021 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD9168C1E0B2F3300070021 /* InternalDependency.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0D9548821E0B2FC900ED435C /* Lister(watchOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D9548881E0B2FC900ED435C /* Build configuration list for PBXNativeTarget "Lister(watchOS)" */;
+			buildPhases = (
+				0D95487E1E0B2FC900ED435C /* Sources */,
+				0D95487F1E0B2FC900ED435C /* Frameworks */,
+				0D9548801E0B2FC900ED435C /* Headers */,
+				0D9548811E0B2FC900ED435C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lister(watchOS)";
+			productName = "Lister(watchOS)";
+			productReference = 0D9548831E0B2FC900ED435C /* Lister(watchOS).framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0DD9167A1E0B2F3300070021 /* InternalDependency */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DD9168F1E0B2F3300070021 /* Build configuration list for PBXNativeTarget "InternalDependency" */;
+			buildPhases = (
+				0DD916761E0B2F3300070021 /* Sources */,
+				0DD916771E0B2F3300070021 /* Frameworks */,
+				0DD916781E0B2F3300070021 /* Headers */,
+				0DD916791E0B2F3300070021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InternalDependency;
+			productName = InternalDependency;
+			productReference = 0DD9167B1E0B2F3300070021 /* InternalDependency.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0DD916831E0B2F3300070021 /* InternalDependencyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DD916921E0B2F3300070021 /* Build configuration list for PBXNativeTarget "InternalDependencyTests" */;
+			buildPhases = (
+				0DD916801E0B2F3300070021 /* Sources */,
+				0DD916811E0B2F3300070021 /* Frameworks */,
+				0DD916821E0B2F3300070021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DD916871E0B2F3300070021 /* PBXTargetDependency */,
+			);
+			name = InternalDependencyTests;
+			productName = InternalDependencyTests;
+			productReference = 0DD916841E0B2F3300070021 /* InternalDependencyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DD916721E0B2F3200070021 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Webtrek;
+				TargetAttributes = {
+					0D9548821E0B2FC900ED435C = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					0DD9167A1E0B2F3300070021 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					0DD916831E0B2F3300070021 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0DD916751E0B2F3200070021 /* Build configuration list for PBXProject "InternalDependency" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0DD916711E0B2F3200070021;
+			productRefGroup = 0DD9167C1E0B2F3300070021 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DD9167A1E0B2F3300070021 /* InternalDependency */,
+				0DD916831E0B2F3300070021 /* InternalDependencyTests */,
+				0D9548821E0B2FC900ED435C /* Lister(watchOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D9548811E0B2FC900ED435C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD916791E0B2F3300070021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD916821E0B2F3300070021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D95487E1E0B2FC900ED435C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD916761E0B2F3300070021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD916801E0B2F3300070021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD9168A1E0B2F3300070021 /* InternalDependencyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DD916871E0B2F3300070021 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DD9167A1E0B2F3300070021 /* InternalDependency */;
+			targetProxy = 0DD916861E0B2F3300070021 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D9548891E0B2FC900ED435C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Lister(watchOS)/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.webtrekk.framework.Lister-watchOS-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		0D95488A1E0B2FC900ED435C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Lister(watchOS)/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.webtrekk.framework.Lister-watchOS-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		0DD9168D1E0B2F3300070021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0DD9168E1E0B2F3300070021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0DD916901E0B2F3300070021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = InternalDependency/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.webtrekk.framework.InternalDependency;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0DD916911E0B2F3300070021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = InternalDependency/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.webtrekk.framework.InternalDependency;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0DD916931E0B2F3300070021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InternalDependencyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.webtrekk.framework.InternalDependencyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0DD916941E0B2F3300070021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InternalDependencyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.webtrekk.framework.InternalDependencyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D9548881E0B2FC900ED435C /* Build configuration list for PBXNativeTarget "Lister(watchOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D9548891E0B2FC900ED435C /* Debug */,
+				0D95488A1E0B2FC900ED435C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0DD916751E0B2F3200070021 /* Build configuration list for PBXProject "InternalDependency" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DD9168D1E0B2F3300070021 /* Debug */,
+				0DD9168E1E0B2F3300070021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DD9168F1E0B2F3300070021 /* Build configuration list for PBXNativeTarget "InternalDependency" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DD916901E0B2F3300070021 /* Debug */,
+				0DD916911E0B2F3300070021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DD916921E0B2F3300070021 /* Build configuration list for PBXNativeTarget "InternalDependencyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DD916931E0B2F3300070021 /* Debug */,
+				0DD916941E0B2F3300070021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DD916721E0B2F3200070021 /* Project object */;
+}
